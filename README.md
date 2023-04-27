@@ -12,7 +12,7 @@ Github link: https://github.com/NickSweet1/Nick-Sweet-Portfolio <br>
 Nick Sweet
   
 ##Assistance<br>
-Guidence was provided by Joshua Vaneps at https://github.com/JoshuaVaneps
+Guidence and assistance was provided by Joshua Vaneps at https://github.com/JoshuaVaneps
 
 ##Version History<br>
 1.0
