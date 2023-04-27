@@ -12,6 +12,7 @@ Github link: https://github.com/NickSweet1/Nick-Sweet-Portfolio <br>
 Nick Sweet
   
 ##Assistance<br>
+Support was provided by Andrew Mason via bootcampspot tutoring. <br>
 Guidence and assistance was provided by Joshua Vaneps at https://github.com/JoshuaVaneps
 
 ##Version History<br>
