@@ -13,7 +13,7 @@ Nick Sweet
   
 ##Assistance<br>
 Support was provided by Andrew Mason via bootcampspot tutoring. <br>
-Guidence and assistance was provided by Joshua Vaneps at https://github.com/JoshuaVaneps
+Guidence and assistance was provided by classmate Joshua Vaneps at https://github.com/JoshuaVaneps
 
 ##Version History<br>
 1.0
