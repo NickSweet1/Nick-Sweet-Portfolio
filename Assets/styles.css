@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --fade: linear-gradient(black, rgb(91, 161, 91));
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(12, 12, 12);
+    background-color: rgb(118, 198, 151);
+    line-height: 1.5;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+header {
+    background-image: var(--fade);
+    border: 2px solid black;
+    padding: 15px 6% 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.headsection {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+}
+header h1 {
+    padding: 5px 1% 5px 6%;
+    margin: 0;
+    font-size: 4vw;
+    line-height: 1;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 30%;
+    justify-content: space-between;
+}
+.hero {
+    height:200px;
+    width: 100%;
+    background-image: url(./pexels-jorge-jesus-614117.jpg);
+    background-size: cover;
+}
+nav a { 
+    list-style-type: none;
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    align-self: center;
+}
+main {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.img1 {
+    max-height: 200px;
+    max-width: 400px;
+    float: right;
+    padding-left: 5px;
+}
+.pagecontainer {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pagesection {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.pagesection > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid black;
+    font-size: 4vw;
+    line-height: 1.1;
+}
+.pagesection > div {
+    flex: 0 0 77%;
+}
+.pagesection p {
+    margin-bottom: 20px;
+}
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flexitem {
+    color: white;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: 48%;
+    display: flex;
+    align-items: flex-end;
+    margin: 0.5em;
+    text-decoration: none;
+    justify-content: center; 
+}
+.flexcontainer div {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    border-radius: 5px;
+}
+.flexitem:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+    font-size: 20px;
+}
+.flexitem h3 {
+    background-color: rgb(251, 251, 251);
+    color: black;
+    padding: 0 10px;
+    flex-wrap: nowrap;
+    border-radius: 25% 25% 0 0;
+}
+a {
+    text-decoration: none;
+}
+#contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+#contact address a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: normal;
+    margin: 2px 1px;
+    display: inline-block;
+}
+.work1 {
+    background-image: url("https://user-images.githubusercontent.com/111986248/233256244-e2511d2b-6934-4836-a400-46c91285043e.png");
+}
+.work2 {
+    background-image: url("./mock-up-design-website-flat-design-concept-digital-marketing-web-design-development-illustration-free-vector.jpg");
+}
+.work3 {
+    background-image: url("./Getsafe.jpg");
+}
+.work4 {
+    background-image: url("./ccbc1768631021f3e2644dbaca16ac7a.jpg");
+}
+.work5 {
+    background-image: url("./6c3ce3b117f3aaaacb248a703d27694b.webp");
+}
+.work1, .work2, .work3, .work4, .work5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 1100px) {
+    .flexitem:first-child {
+        min-height: 300px;
+        flex-basis: 100%;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .flexitem:first-child {
+        min-height: 200px;
+        flex-basis: 100%;
+        font-size: 20px;
+    }
+    header h1 {
+        padding: 5px 1% 5px 6%;
+        margin: 10% 0 5% 0;
+        font-size: 30px;
+        line-height: 1;
+        color: rgb(8, 8, 8);
+        align-content: center;
+    }
+}
+@media screen and (max-width: 500px) {
+    .flexitem:first-child {
+        min-height: 100px;
+        flex-basis: 100%;
+        font-size: 20px;
+    }
+    header h1 {
+        padding: 5px 1% 5px 6%;
+        margin: 10% 0 5% 0;
+        font-size: 30px;
+        line-height: 1;
+        color: white;
+        align-content: center;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 0 0 30%;
+        justify-content: space-between;
+        color: white;
+    }
+    nav a { 
+        list-style-type: none;
+        color: rgb(250, 247, 247);
+        text-decoration: none;
+        text-decoration: none;
+        font-size: 1.4rem;
+        margin-right: 10px;
+        align-self: center;
+        justify-content: center;
+    }
+}
