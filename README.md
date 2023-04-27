@@ -1,4 +1,4 @@
-##Nick Sweet Portfolio
+#Nick Sweet Portfolio
 A deployed portfolio website that allows the user to view past projects and information about myself.
 
 ##Description
